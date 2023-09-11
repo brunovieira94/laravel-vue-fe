@@ -1,27 +1,22 @@
-## Project setup
-```
-npm install
-```
+# Frontend Vue Task Manager - JWT, Vue Router, Axios
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+<table>
+    <tr>
+        <td>
+            <a href="https://vuejs.org/"><img src="https://i.imgur.com/BxQe48y.png" /></a>
+        </td>
+        <td>
+            <img src="https://i.imgur.com/Kp5kTUp.png" />
+        </td>
+    </tr>
+</table> 
 
-### Compiles and minifies for production
-```
-npm run build
-```
 
-### Run your tests
-```
-npm run test
-```
+## Requirements
+You need to have Node.js version **14.0** or above. 
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Installation and usage
+1. Clone the project
+2. Go to the project root directory
+3. Run `npm install`
+4. Run `npm start` to start the project at http://localhost:8081
