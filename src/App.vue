@@ -8,10 +8,10 @@
             <font-awesome-icon icon="home" /> Home
           </router-link>
         </li>
-        <li class="nav-item">
+        <li v-if="currentUser" class="nav-item">
           <router-link to="/tasks" class="nav-link">Tasks</router-link>
         </li>
-        <li v-if="showUsers" class="nav-item">
+        <li v-if="isAdmin" class="nav-item">
           <router-link to="/users" class="nav-link">Users</router-link>
         </li>
       </div>
@@ -45,7 +45,7 @@ export default {
     currentUser() {
       return this.$store.state.auth.user;
     },
-    showUsers() {
+    isAdmin() {
       if (this.currentUser && this.currentUser.user.admin) {
         return true;
       }
